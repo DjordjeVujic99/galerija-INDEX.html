@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="sr">
+<head>
+<meta charset="UTF-8">
+<title>RESPONSIVE</title>
+<meta name="viewport" content="width-device=width, initial-scale=1.0">
+<style>
+body{
+width:100%;
+height:100%;
+}
+
+}
+
+}
+.ko{
+width:100%;
+margin-left:auto;
+margin-right:auto;
+}
+#naslov{
+text-align:center;
+color:blue;
+font-size:36px;
+}
+.kolona{
+width:20%;
+box-sizing:border-box;
+float:left;
+padding:20px;
+}
+.row{
+height:144px;
+margin: 0 auto;
+width:90%
+}
+.row::after{
+content:'';
+display:block;
+clear:left;
+}
+.celija{
+background:red;
+height:144px;
+border-radius:20px;
+
+}
+@media screen and (max-width:2048px){
+.kolona{
+width:20%;
+}
+h1{
+font-size:40px;
+display:inline;
+text-align:left;
+margin-left:6%
+}
+p{
+font-size:21px;
+}
+}
+
+@media screen and (max-width:1024px){
+.kolona{
+width:20%;
+}
+h1{
+font-size:40px;
+display:inline;
+text-align:left;
+margin-left:6%
+}
+p{
+font-size:21px;
+}
+}
+@media screen and (max-width:768px){
+.kolona{
+width:33.33%;
+}
+h1{
+font-size:30px;
+}
+p{
+font-size:18px;
+}
+}
+@media screen and (max-width:414px){
+.kolona{
+width:100%;
+}
+h1{
+font-size:28px;
+}
+p{
+font-size:15px;
+}
+}
+.nana{
+background-color:#e1eafa;
+height:20%;
+border-radius:0 0 20px 20px;
+padding:5px;
+}
+.prvi{
+height:80%;
+border-radius:20px 20px 0 0;
+padding:5px;
+background-color:#3d84f5;
+}
+#paragraf{
+clear:left;
+padding:5%;
+}
+span{
+text-align:center;
+}
+</style>
+</head>
+<body>
+<div class="ko">
+<div id="glavni">
+<h1 id="naslov">GALERIJA</h1>
+<div class="row">
+<div class="kolona">
+<div class="celija">
+<div class="prvi"><img src="image.png" alt="thumb" width="100%;" height="100%"></div><div class="nana"><span>fotografija broj 1<span></div ></div> 
+</div> 
+<div class="kolona">
+<div class="celija">
+<div class="prvi"><img src="image.png" alt="thumb" width="100%;" height="100%"></div><div class="nana"><span>fotografija broj 2</span></div ></div> </div>
+<div class="kolona">
+<div class="celija">
+<div class="prvi"><img src="image.png" alt="thumb" width="100%;" height="100%"></div><div class="nana"><span>fotografija broj 3</span></div ></div> </div> 
+<div class="kolona">
+<div class="celija">
+<div class="prvi"><img src="image.png" alt="thumb" width="100%;" height="100%"></div><div class="nana"><span>fotografija broj 4</span></div ></div> </div>
+<div class="kolona">
+<div class="celija">
+<div class="prvi"><img src="image.png" alt="thumb" width="100%;" height="100%"></div><div class="nana"><span>fotografija broj 5</span></div ></div> </div></div>
+<div class="row">
+<div class="kolona">
+<div class="celija">
+<div class="prvi"><img src="image.png" alt="thumb" width="100%;" height="100%"></div><div class="nana"><span>fotografija broj 6</span></div ></div> </div>
+<div class="kolona">
+<div class="celija">
+<div class="prvi"><img src="image.png" alt="thumb" width="100%;" height="100%"></div><div class="nana"><span>fotografija broj 7</span></div ></div> </div>
+<div class="kolona">
+<div class="celija">
+<div class="prvi"><img src="image.png" alt="thumb" width="100%;" height="100%"></div><div class="nana"><span>fotografija broj 8</span></div ></div> </div>
+<div class="kolona">
+<div class="celija">
+<div class="prvi"><img src="image.png" alt="thumb" width="100%;" height="100%"></div><div class="nana"><span>fotografija broj 9</span></div ></div> </div>
+<div class="kolona">
+<div class="celija">
+<div class="prvi"><img src="image.png" alt="thumb" width="100%;" height="100%"></div><div class="nana"><span>fotografija broj 10</span></div ></div> </div></div>
+</div> 
+</div> 
+<div id="paragraf">
+<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque ut mauris ac nunc suscipit eleifend non eget quam. Proin et lorem eu enim aliquet efficitur a vel felis. Nulla auctor, ligula eget pharetra posuere, risus erat feugiat justo, eget malesuada dui ligula eu nunc. Vivamus gravida semper diam, vitae rutrum mauris tempor sit amet. Cras fringilla fermentum luctus. Donec scelerisque commodo congue. Nullam at feugiat ex, id condimentum urna. Praesent interdum viverra bibendum. Pellentesque auctor metus eu ex facilisis posuere. Etiam a metus eget augue tincidunt congue a non dui. Proin id augue faucibus, ultrices dolor a, gravida dolor. Cras sagittis, enim id aliquet gravida, diam nunc faucibus odio, tristique congue nisl tortor eu lectus. In est neque, tristique a arcu vitae, tempor finibus orci. Nullam eget vehicula quam, eu egestas mauris. Quisque aliquam eros est, eu vulputate eros lacinia ac. Aenean quis augue molestie, bibendum risus et, faucibus nulla.</p>
+</div>
+
+</body>
+</html>
